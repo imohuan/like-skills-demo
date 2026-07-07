@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-07T15:45:13.697Z",
+  "updatedAt": "2026-07-07T15:49:48.769Z",
   "skills": [
     {
       "name": "tavily-best-practices",
@@ -33,6 +33,40 @@
         "url": "https://github.com/obra/superpowers",
         "originalPath": "skills/brainstorming/SKILL.md",
         "syncedAt": "2026-07-07T15:45:13.646Z",
+        "updatable": true
+      }
+    },
+    {
+      "name": "anki-connect",
+      "description": "This skill is for interacting with Anki through AnkiConnect, and should be used whenever a user asks to interact with Anki, including to read or modify decks, notes, cards, models, media, or sync operations.",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/anki-connect/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:72bf9f15538f7c7ba5f5a8acb478b710a7d8064df9c0f0faeb0775d93231ee13",
+      "origin": {
+        "adapter": "vercel-skills",
+        "url": "https://github.com/intellectronica/agent-skills",
+        "originalPath": "skills/anki-connect/SKILL.md",
+        "syncedAt": "2026-07-07T15:49:43.715Z",
+        "updatable": true
+      }
+    },
+    {
+      "name": "context7-cli",
+      "description": "Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP. Activate when the user mentions \"ctx7\" or \"context7\", needs current docs for any library, wants to install/search/generate skills, or needs to set up Context7 for their AI coding agent.",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/context7-cli/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:afdb9caa1e5778142941c50e9f0c68e2f6e4efb0c7eaa43f43c10dc42b3ad1c5",
+      "origin": {
+        "adapter": "vercel-skills",
+        "url": "https://github.com/upstash/context7",
+        "originalPath": "skills/context7-cli/SKILL.md",
+        "syncedAt": "2026-07-07T15:49:48.689Z",
         "updatable": true
       }
     }
