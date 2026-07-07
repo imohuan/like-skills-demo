@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-07T15:16:48.227Z",
+  "updatedAt": "2026-07-07T15:45:13.697Z",
   "skills": [
     {
       "name": "tavily-best-practices",
@@ -16,6 +16,23 @@
         "url": "https://github.com/tavily-ai/skills",
         "originalPath": "skills/tavily-best-practices/SKILL.md",
         "syncedAt": "2026-07-07T15:16:48.207Z",
+        "updatable": true
+      }
+    },
+    {
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/brainstorming/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:e14914605f640e0841758e45d0ab2a53243b59b921f929e47921c99668f2e61d",
+      "origin": {
+        "adapter": "vercel-skills",
+        "url": "https://github.com/obra/superpowers",
+        "originalPath": "skills/brainstorming/SKILL.md",
+        "syncedAt": "2026-07-07T15:45:13.646Z",
         "updatable": true
       }
     }
