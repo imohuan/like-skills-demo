@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-07T15:16:48.227Z",
+  "skills": [
+    {
+      "name": "tavily-best-practices",
+      "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using coding assistants (Claude Code, Cursor, etc.) to implement web search, content extraction, crawling, and research in agentic workflows, RAG systems, or autonomous agents.",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/tavily-best-practices/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:30e0f7ad4d6fbb2f46762cae2b4f4df3176467a370661177eb10f8449a7ae770",
+      "origin": {
+        "adapter": "vercel-skills",
+        "url": "https://github.com/tavily-ai/skills",
+        "originalPath": "skills/tavily-best-practices/SKILL.md",
+        "syncedAt": "2026-07-07T15:16:48.207Z",
+        "updatable": true
+      }
+    }
+  ],
+  "prompts": [],
+  "mcp": []
+}
