@@ -1,23 +1,24 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-08T05:18:24.218Z",
+  "updatedAt": "2026-07-09T03:01:50.068Z",
   "skills": [
     {
-      "name": "tavily-best-practices",
-      "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using coding assistants (Claude Code, Cursor, etc.) to implement web search, content extraction, crawling, and research in agentic workflows, RAG systems, or autonomous agents.",
+      "name": "superdesign",
+      "description": "Superdesign is a design agent specialized in frontend UI/UX design. Use this skill before implementing any UI that requires design thinking. Common commands: superdesign create-project --title \"X\" (setup project), superdesign create-design-draft --project-id <id> --title \"Current UI\" -p \"Faithfully reproduce...\" --context-file src/Component.tsx (faithful reproduction), superdesign iterate-design-draft --draft-id <id> -p \"dark theme\" -p \"minimal\" --mode branch --context-file src/Component.tsx (design variations), superdesign execute-flow-pages --draft-id <id> --pages '[...]' --context-file src/Component.tsx (extend to more pages), superdesign create-component --project-id <id> --name \"NavBar\" --html-file /tmp/navbar.html --props '[...]' (extract reusable component), superdesign update-component --component-id <id> --html-file /tmp/navbar.html (update existing component), superdesign list-components --project-id <id> (list existing components). Supports line ranges: --context-file path:startLine:endLine",
       "tags": [],
       "group": "",
       "type": "skill",
-      "path": "skills/tavily-best-practices/SKILL.md",
+      "path": "skills/superdesign/SKILL.md",
       "version": "0.1.0",
-      "contentHash": "sha256:30e0f7ad4d6fbb2f46762cae2b4f4df3176467a370661177eb10f8449a7ae770",
+      "contentHash": "sha256:fdf055444c921e8bc81f4b5f650ac28fa0e2d4e9e1d5903bdb5b0839b2ca8759",
       "origin": {
         "adapter": "vercel-skills",
-        "url": "https://github.com/tavily-ai/skills",
-        "originalPath": "skills/tavily-best-practices/SKILL.md",
-        "syncedAt": "2026-07-07T15:16:48.207Z",
+        "url": "https://github.com/superdesigndev/superdesign-skill",
+        "originalPath": "skills/superdesign/SKILL.md",
+        "syncedAt": "2026-07-08T11:05:15.130Z",
         "updatable": true
-      }
+      },
+      "enabled": false
     },
     {
       "name": "brainstorming",
@@ -32,11 +33,254 @@
         "adapter": "vercel-skills",
         "url": "https://github.com/obra/superpowers",
         "originalPath": "skills/brainstorming/SKILL.md",
-        "syncedAt": "2026-07-07T15:45:13.646Z",
+        "syncedAt": "2026-07-08T11:20:24.425Z",
         "updatable": true
-      }
+      },
+      "enabled": true
+    },
+    {
+      "name": "autoplan",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/autoplan/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:35aa80cb0c4ab12f4846d6f400e3a3746c9b8315de19fd7174e1e77b8c6cbdd8",
+      "enabled": true
+    },
+    {
+      "name": "gsd-inbox",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/gsd-inbox/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:33c44c032466f472fff4fbf7ca9bb1350c1e7778b6fbaf31cb2dd9fc0437fab6",
+      "enabled": true
+    },
+    {
+      "name": "ax-ui-kit",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/ax-ui-kit/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:d0d7cf69ebdbccb0cdeda9d4a5ac6ce80509c436cdb97f3834de919c7ea61bec",
+      "enabled": true
+    },
+    {
+      "name": "codegraph",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/codegraph/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:aec23efd100b37c08b0fe727b2f4a97ae4e289094ede0ec0c9b72972634d57d4",
+      "enabled": true
+    },
+    {
+      "name": "docker",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/docker/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:4e947a677b8542f2849afd172b8b9fa8c645b90939165bcf762d8385f0543cac",
+      "enabled": true
+    },
+    {
+      "name": "find-skills",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/find-skills/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:ae184d746a91b6279d86dc73611c257ba9d1302592ed5e86107bdbf3165ea720",
+      "enabled": true
+    },
+    {
+      "name": "frontend-design-3",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/frontend-design-3/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:19a5ad5307d94d68700bf4d7ba9575673f86dc6fdbab4170110fd4731badecfc",
+      "enabled": true
+    },
+    {
+      "name": "obsidian",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/obsidian/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:aedc317c9e66a382f75bd1157713a569d2b4d17a1941c0890f7b8bae5878016e",
+      "enabled": true
+    },
+    {
+      "name": "openai-whisper",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/openai-whisper/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:f9fadf134b6de49d55ffae904b2c75f5b7035f37ffa96394b19de648bdef9e0f",
+      "enabled": true
+    },
+    {
+      "name": "ponytail",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/ponytail/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:0537ff8d0ad12c88ece83f2aa4c906d12ddf526cd3da6df25171a99b3bd21e46",
+      "enabled": true
+    },
+    {
+      "name": "quick-commit",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/quick-commit/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:552efbd87c9cc2c41f213d63c79fa6790032958b281923877cba6b553500883e",
+      "enabled": true
+    },
+    {
+      "name": "summarize",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/summarize/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:0f9c489f385fbba0303b415fe73f99144543033d3c11b0c9aebf36481239e64e",
+      "enabled": true
+    },
+    {
+      "name": "travel-cn",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/travel-cn/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:4c1de994ba9f427e57bd57a9660641871d2a55a96f898e1cedb1909a3b96bd45",
+      "enabled": true
+    },
+    {
+      "name": "ui-ux-pro-max-plus",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/ui-ux-pro-max-plus/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:8fac6f78dcf439fd2df4edda5fa2d0f73c9b6749999e7c9947b08136b8d7f3f1",
+      "enabled": true
+    },
+    {
+      "name": "web-animation-design",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/web-animation-design/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:d2dbc292cf816c6abeedcec47f5c06cd52708380bfd5af33163fc90df6b56e49",
+      "enabled": true
+    },
+    {
+      "name": "whisper-cpp",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/whisper-cpp/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:5b393a5ba675df313c1b81f4803125d1eb7bac069b46080e8185782d1b89a9f3",
+      "enabled": true
+    },
+    {
+      "name": "zoom-out",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/zoom-out/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:df10a93e58efc5901125ce79f5544ac96d4bd21289ea10a8c66a3d72bea705d5",
+      "enabled": true
+    },
+    {
+      "name": "canary",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "skill",
+      "path": "skills/canary/SKILL.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:1e702452a09105501639f01004b8003d57a6821a79852718e15ab4ce4c4c1237",
+      "enabled": true
     }
   ],
-  "prompts": [],
-  "mcp": []
+  "prompts": [
+    {
+      "name": "academic-narratologist",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "prompt",
+      "path": "agents/academic-narratologist.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:a594a3246810121b56614b4e457cf6e8685c1379618440e7f7f5e1b61bb396d9",
+      "enabled": true
+    },
+    {
+      "name": "academic-psychologist",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "prompt",
+      "path": "agents/academic-psychologist.md",
+      "version": "0.1.0",
+      "contentHash": "sha256:4e929a2aaa231ed240aa458a41c0a6711b90d6ee297fb40c3af6ae082f4d1590",
+      "enabled": true
+    }
+  ],
+  "mcp": [
+    {
+      "name": "context7",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "mcp-config",
+      "path": "mcp/configs/context7.json",
+      "version": "0.1.0",
+      "contentHash": "sha256:eeae0c87139973a14ea6d5742ce83f3c78f04cb1946784a560121a6a475d5526"
+    },
+    {
+      "name": "codegraph",
+      "description": "",
+      "tags": [],
+      "group": "",
+      "type": "mcp-config",
+      "path": "mcp/configs/codegraph.json",
+      "version": "0.1.0",
+      "contentHash": "sha256:d82e29de8a58fc30fbd730575148ed3e9bffecd46277963d544520ae9752d9f8"
+    }
+  ]
 }
